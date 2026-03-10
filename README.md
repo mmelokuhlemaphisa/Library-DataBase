@@ -4,7 +4,7 @@ A comprehensive library management system built with PostgreSQL that manages boo
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This Library Management System provides functionality to:
 
@@ -16,7 +16,7 @@ This Library Management System provides functionality to:
 ---
 
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -26,9 +26,9 @@ This Library Management System provides functionality to:
 
 ---
 
-## 📅 Sprint Breakdown
+## Sprint Breakdown
 
-### Sprint 1: Project Setup ✅
+### Sprint 1: Project Setup 
 
 **Tasks:**
 
@@ -69,7 +69,7 @@ CREATE TABLE patrons (
 
 **File:** `Table.sql`
 
-### Sprint 2: Insert Data ✅
+### Sprint 2: Insert Data 
 
 **Tasks:**
 
@@ -125,7 +125,7 @@ VALUES
 
 **File:** `InsertData.sql`
 
-### Sprint 3: Read Operations (Queries) ✅
+### Sprint 3: Read Operations (Queries) 
 
 **Tasks:**
 
@@ -155,7 +155,7 @@ SELECT * FROM books WHERE available = TRUE;
 
 **File:** `Quaries.sql`
 
-### Sprint 4: Update Operations ✅
+### Sprint 4: Update Operations 
 
 **Tasks:**
 
@@ -178,7 +178,7 @@ UPDATE patrons SET borrowed_books = array_append(borrowed_books, 1) WHERE id = 1
 
 **File:** `Quaries.sql`
 
-### Sprint 5: Delete Operations ✅
+### Sprint 5: Delete Operations 
 
 **Tasks:**
 
@@ -197,7 +197,7 @@ DELETE FROM authors WHERE id = 10;
 
 **File:** `Quaries.sql`
 
-### Sprint 6: Advanced Queries ✅
+### Sprint 6: Advanced Queries 
 
 **Tasks:**
 
@@ -232,7 +232,7 @@ UPDATE books SET published_year = published_year + 1 WHERE published_year = 1869
 
 **File:** `Quaries.sql`
 
-### Sprint 7: Documentation ✅
+### Sprint 7: Documentation 
 
 **Tasks:**
 
@@ -268,7 +268,7 @@ CREATE DATABASE LibraryDB;
 
 
 
-## 📁 File Structure
+##  File Structure
 
 ```
 Library-DataBase/
@@ -278,15 +278,15 @@ Library-DataBase/
 └── Quaries.sql        # Query examples and operations
 ```
 
-## 🎉 Project Completion Status
+##  Project Completion Status
 
 All sprints have been successfully completed with full functionality:
 
-- ✅ Database structure created
-- ✅ Sample data populated
-- ✅ CRUD operations implemented
-- ✅ Advanced queries functional
-- ✅ Documentation complete
+- Database structure created
+- Sample data populated
+- CRUD operations implemented
+- Advanced queries functional
+- Documentation complete
 
 ---
 
