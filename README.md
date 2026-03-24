@@ -95,7 +95,7 @@ VALUES
 ('J.R.R. Tolkien', 'British', 1892, 1973);
 
 -- Insert Books
-INSERT INTO books (title, authorId, genres, published_year, available)
+INSERT INTO books (title,  author_id, genres, published_year, available)
 VALUES
 ('1984', 1, ARRAY['Dystopian','Political Fiction'], 1949, TRUE),
 ('To Kill a Mockingbird', 2, ARRAY['Southern Gothic','Bildungsroman'], 1960, TRUE),
@@ -147,7 +147,7 @@ SELECT * FROM books WHERE title = '1984';
 SELECT b.*
 FROM books b
 JOIN authors a ON b.author_id = a.id
-WHERE a.name = 'George Orwell';
+WHERE a.authorName = 'George Orwell';
 
 -- 4. Get all available books
 SELECT * FROM books WHERE available = TRUE;
